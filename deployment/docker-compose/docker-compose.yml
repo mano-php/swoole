@@ -1,0 +1,8 @@
+services:
+    api:
+        build: .
+        volumes:
+            - ../../../../../:/var/www/html
+        ports:
+            - "5200:5200"
+        entrypoint: php bin/laravels start
