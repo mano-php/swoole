@@ -8,3 +8,4 @@ services:
         entrypoint: php bin/laravels start -i
         environment:
             LARAVELS_LISTEN_IP: "0.0.0.0"
+            LARAVELS_HANDLE_STATIC: true
