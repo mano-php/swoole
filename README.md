@@ -3,6 +3,11 @@
 > 默认端口：5200
 
 
+### 安装扩展
+```bash
+composer require mano-code/swoole
+```
+
 ### 发布配置文件
 
 ```bash

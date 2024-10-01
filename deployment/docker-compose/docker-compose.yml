@@ -5,4 +5,6 @@ services:
             - ../../../../../:/var/www/html
         ports:
             - "5200:5200"
-        entrypoint: php bin/laravels start
+        entrypoint: php bin/laravels start -i
+        environment:
+            LARAVELS_LISTEN_IP: "0.0.0.0"
